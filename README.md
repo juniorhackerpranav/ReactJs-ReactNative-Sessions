@@ -8,7 +8,7 @@ This repository contains all the source code, examples, and learning materials c
 
 * **[Session 2 - PPT](./ppt/Session%202%20-%20State-Events.pptx)** – State & Events.
 
-* **[Session 2 - PPT](./ppt/Session%203%20-%20Effect-Data%20Fetching-React%20Router.pptx)** – State & Events.
+* **[Session 3 - PPT](./ppt/Session%203%20-%20Effect-Data%20Fetching-React%20Router.pptx)** – Effects, Data Fetching & React Router.
 
 ## 📂 Session-Wise Code
 
