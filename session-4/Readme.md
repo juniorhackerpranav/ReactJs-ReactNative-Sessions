@@ -8,7 +8,7 @@
 3. Why Context API?
 
 4. What is Prop Drilling?
-
+ 
 5. Understanding Context API Architecture
 
 6. Creating a Context
