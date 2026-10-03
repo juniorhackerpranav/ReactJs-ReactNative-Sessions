@@ -1,0 +1,29 @@
+﻿PS D:\college\sessions\session-7> npx @react-native-community/cli@latest init
+          ######    ###            ###    ######
+             ##  ########################  ##
+            ##         ###      ###         ##
+            ##           ##    ##           ##
+            ##             ####             ##
+            ##             ####             ##
+            ##          ###    ###          ##
+             ###     ####        ####     ###
+               ######                ######
+
+
+              Welcome to React Native 0.87.1!
+                 Learn once, write anywhere
+
+✔ Downloading template
+✔ Copying template
+✔ Processing template
+✔ Installing dependencies
+✔ Initializing Git repository
+
+
+  Run instructions for Android:
+    • Have an Android emulator running (quickest way to get started), or a device connected.
+    • cd "D:\college\sessions\session-7\first_community_cli_project" && npx react-native run-android
+
+  Run instructions for Windows:
+    • See https://microsoft.github.io/react-native-windows for the latest up-to-date instructions.
+PS D:\college\sessions\session-7> cls
