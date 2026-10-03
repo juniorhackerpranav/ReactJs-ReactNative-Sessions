@@ -1,4 +1,4 @@
-# Session 1 : React Native Introduction and Basics
+# Session 7 : React Native Introduction and Basics
 
 ```text
 1. Introduction to React Native
