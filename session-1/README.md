@@ -1,4 +1,4 @@
-## Session 1 : React Introduction and Basics
+# Session 1 : React Introduction and Basics
 
 ``` 
 1. Introduction to React
