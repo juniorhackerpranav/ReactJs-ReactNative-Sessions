@@ -3,7 +3,7 @@
 
 # 1. Variables
 
-```js
+```jsx
 let name = "Pranav";   // Can be reassigned
 const age = 22;        // Cannot be reassigned
 ```
@@ -14,7 +14,7 @@ const age = 22;        // Cannot be reassigned
 
 # 2. Data Types
 
-```js
+```jsx
 let name = "John";      // String
 let age = 25;           // Number
 let isStudent = true;   // Boolean
@@ -30,7 +30,7 @@ let data;
 
 ### Normal Function
 
-```js
+```jsx
 function greet(name) {
     return "Hello " + name;
 }
@@ -42,7 +42,7 @@ console.log(greet("John"));
 
 ### Arrow Function ⭐ (Most Used in React)
 
-```js
+```jsx
 const greet = (name) => {
     return `Hello ${name}`;
 }
@@ -50,13 +50,13 @@ const greet = (name) => {
 
 Single line
 
-```js
+```jsx
 const greet = (name) => `Hello ${name}`;
 ```
 
 No parameter
 
-```js
+```jsx
 const greet = () => {
     console.log("Hello");
 }
@@ -64,7 +64,7 @@ const greet = () => {
 
 Multiple parameters
 
-```js
+```jsx
 const add = (a, b) => a + b;
 ```
 
@@ -74,7 +74,7 @@ const add = (a, b) => a + b;
 
 Old
 
-```js
+```jsx
 let name = "John";
 
 console.log("Hello " + name);
@@ -82,7 +82,7 @@ console.log("Hello " + name);
 
 New
 
-```js
+```jsx
 let name = "John";
 
 console.log(`Hello ${name}`);
@@ -90,7 +90,7 @@ console.log(`Hello ${name}`);
 
 Multiple variables
 
-```js
+```jsx
 let name = "John";
 let age = 22;
 
@@ -101,7 +101,7 @@ console.log(`${name} is ${age} years old`);
 
 # 5. Objects
 
-```js
+```jsx
 const student = {
     name: "John",
     age: 22,
@@ -114,13 +114,13 @@ console.log(student.age);
 
 Adding property
 
-```js
+```jsx
 student.course = "React";
 ```
 
 Updating
 
-```js
+```jsx
 student.age = 23;
 ```
 
@@ -128,25 +128,25 @@ student.age = 23;
 
 # 6. Arrays
 
-```js
+```jsx
 const fruits = ["Apple", "Banana", "Orange"];
 ```
 
 Access
 
-```js
+```jsx
 console.log(fruits[0]);
 ```
 
 Add
 
-```js
+```jsx
 fruits.push("Mango");
 ```
 
 Remove
 
-```js
+```jsx
 fruits.pop();
 ```
 
@@ -158,7 +158,7 @@ fruits.pop();
 
 Used for rendering lists in React.
 
-```js
+```jsx
 const numbers = [1,2,3];
 
 const result = numbers.map((num) => {
@@ -192,7 +192,7 @@ return (
 
 ## filter()
 
-```js
+```jsx
 const numbers = [10,20,30,40];
 
 const result = numbers.filter((num) => num > 20);
@@ -210,7 +210,7 @@ Output
 
 ## find()
 
-```js
+```jsx
 const users = [
     {id:1,name:"John"},
     {id:2,name:"Alex"}
@@ -225,7 +225,7 @@ console.log(user);
 
 ## forEach()
 
-```js
+```jsx
 const numbers = [1,2,3];
 
 numbers.forEach((num)=>{
@@ -239,7 +239,7 @@ numbers.forEach((num)=>{
 
 Object
 
-```js
+```jsx
 const user = {
     name:"John",
     age:22
@@ -252,7 +252,7 @@ console.log(name);
 
 Array
 
-```js
+```jsx
 const colors = ["Red","Blue"];
 
 const [first, second] = colors;
@@ -272,7 +272,7 @@ function Card({title, price}) {
 
 Copy Array
 
-```js
+```jsx
 const arr1 = [1,2,3];
 
 const arr2 = [...arr1];
@@ -280,7 +280,7 @@ const arr2 = [...arr1];
 
 Merge Arrays
 
-```js
+```jsx
 const a = [1,2];
 const b = [3,4];
 
@@ -289,7 +289,7 @@ const c = [...a,...b];
 
 Objects
 
-```js
+```jsx
 const user = {
     name:"John",
     age:22
@@ -303,7 +303,7 @@ const updatedUser = {
 
 React State Example
 
-```js
+```jsx
 setUser({
     ...user,
     age:25
@@ -314,7 +314,7 @@ setUser({
 
 # 10. Rest Operator (...)
 
-```js
+```jsx
 const sum = (...numbers) => {
     console.log(numbers);
 };
@@ -334,7 +334,7 @@ Output
 
 Instead of
 
-```js
+```jsx
 if(age >= 18){
     console.log("Adult");
 }else{
@@ -344,7 +344,7 @@ if(age >= 18){
 
 Use
 
-```js
+```jsx
 age >= 18 ? "Adult" : "Minor";
 ```
 
@@ -362,7 +362,7 @@ React
 
 Without
 
-```js
+```jsx
 console.log(user.address.city);
 ```
 
@@ -370,7 +370,7 @@ May throw an error.
 
 With
 
-```js
+```jsx
 console.log(user?.address?.city);
 ```
 
@@ -378,7 +378,7 @@ console.log(user?.address?.city);
 
 # 13. Nullish Check (??)
 
-```js
+```jsx
 const name = userName ?? "Guest";
 ```
 
@@ -402,13 +402,13 @@ Render only if the condition is `true`.
 
 ### Default Export
 
-```js
+```jsx
 export default App;
 ```
 
 Import
 
-```js
+```jsx
 import App from "./App";
 ```
 
@@ -416,13 +416,13 @@ import App from "./App";
 
 ### Named Export
 
-```js
+```jsx
 export const add = () => {};
 ```
 
 Import
 
-```js
+```jsx
 import { add } from "./utils";
 ```
 
@@ -447,7 +447,7 @@ import Footer from "./Footer";
 
 # 17. Promises
 
-```js
+```jsx
 const promise = new Promise((resolve, reject) => {
     resolve("Success");
 });
@@ -457,7 +457,7 @@ const promise = new Promise((resolve, reject) => {
 
 # 18. Async/Await ⭐
 
-```js
+```jsx
 const getUsers = async () => {
     const res = await fetch("https://jsonplaceholder.typicode.com/users");
 
@@ -471,7 +471,7 @@ const getUsers = async () => {
 
 # 19. Fetch API
 
-```js
+```jsx
 fetch("https://jsonplaceholder.typicode.com/users")
     .then((res) => res.json())
     .then((data) => console.log(data));
@@ -479,7 +479,7 @@ fetch("https://jsonplaceholder.typicode.com/users")
 
 Async Version
 
-```js
+```jsx
 const getData = async () => {
     const res = await fetch("https://jsonplaceholder.typicode.com/users");
     const data = await res.json();
@@ -492,14 +492,14 @@ const getData = async () => {
 
 # 20. ES Modules  
 
-```js
+```jsx
 // Export
 export default Home;
 
 export const add = () => {};
 ```
 
-```js
+```jsx
 // Import
 import Home from "./Home";
 

@@ -1,24 +1,39 @@
 # Session 2 : Effects, Data Fetching and React Router
 
 ```text
-# 1. Effects in React
-# 2. useEffect Hook
-# 3. useEffect Syntax and Dependency Array
-# 4. useEffect with Different Dependencies
-# 5. Data Fetching in React
-# 6. Fetch API
-# 7. Axios
-# 8. Async / Await with Fetch and Axios
-# 9. Handling Loading and Error States
-# 10. React Router
-# 11. BrowserRouter, Routes and Route
-# 12. Link
-# 13. useNavigate
-# 14. useParams
-# 15. useLocation
-# 16. Dynamic Routes
-# 17. 404 / Not Found Route
-# 18. Mini Project to implement all learning
+1. Effects in React
+
+2. useEffect Hook
+
+3. useEffect Syntax and Dependency Array
+
+4. useEffect with Different Dependencies
+
+5. Data Fetching in React
+
+6. Fetch API
+
+7. Axios
+
+8. Async / Await with Fetch and Axios
+
+9. Handling Loading and Error States
+
+10. React Router
+
+11. BrowserRouter, Routes and Route
+
+12. Link
+
+13. useNavigate
+
+14. useParams
+
+15. useLocation
+
+16. Dynamic Routes
+
+17. 404 / Not Found Route 
 ```
 
 ---

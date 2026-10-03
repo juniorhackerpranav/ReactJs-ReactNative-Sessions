@@ -1,17 +1,25 @@
 ## Session 1 : React Introduction and Basics
 
 ``` 
-# 1. Introduction to React
-# 2. What is React?
-# 3. Why React?
-# 4. React Features
-# 5. Virtual DOM
-# 6. Create First React Project
-# 7. Understand the Project Structure
-# 8. JSX
-# 9. Components
-# 10. Props
-# 11. Mini Project to implement all learning
+1. Introduction to React
+
+2. What is React?
+
+3. Why React?
+
+4. React Features
+
+5. Virtual DOM
+
+6. Create First React Project
+
+7. Understand the Project Structure
+
+8. JSX
+
+9. Components
+
+10. Props 
 ```
 
 ## 1. Introduction to React
